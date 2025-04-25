@@ -13,5 +13,5 @@ FetchContent_Declare(SFML
 FetchContent_MakeAvailable(SFML)
 
 add_executable(block_breaker main.cpp)
-target_compile_features(block_breaker PRIVATE cxx_std_17)
+target_compile_features(block_breaker PRIVATE cxx_std_23)
 target_link_libraries(block_breaker PRIVATE SFML::Graphics)
